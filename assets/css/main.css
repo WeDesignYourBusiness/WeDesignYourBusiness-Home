@@ -9,18 +9,18 @@ body {
   height: 50px
   color: #000000
 }
-footer{
+footer {
   text-align: center;
   height: 25px;
   background-color: #f8f8f8;
   color: #000000;
 }
 
-.jumbo-text{
+.jumbo-text {
   text-align: center;
   padding-bottom: 10px;
 }
 
-.pannel-footer{
+.panel-footer {
   text-align: center;
 }
