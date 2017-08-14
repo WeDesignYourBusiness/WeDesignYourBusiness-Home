@@ -24,3 +24,8 @@ footer {
 .panel-footer {
   text-align: center;
 }
+
+.panel-body{
+    font-size: 15px;
+
+}
