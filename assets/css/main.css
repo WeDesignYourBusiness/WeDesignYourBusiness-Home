@@ -1,0 +1,26 @@
+body {
+  background-color: grey;
+}
+
+.main {
+
+}
+.nav {
+  height: 50px
+  color: #000000
+}
+footer {
+  text-align: center;
+  height: 25px;
+  background-color: #f8f8f8;
+  color: #000000;
+}
+
+.jumbo-text {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.panel-footer {
+  text-align: center;
+}
