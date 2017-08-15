@@ -17,8 +17,10 @@ h2 {
       color: #303030;
       font-weight: 400;
       margin-bottom: 30px;
-  }  
-
+  }
+.row {
+  text-align: center;
+}
 .navbar {
       background-color: #800E13 !important;
       font-size: 12px !important;
