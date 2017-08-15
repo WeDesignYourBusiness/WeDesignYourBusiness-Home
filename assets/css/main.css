@@ -1,26 +1,75 @@
 body {
-  background-color: grey;
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
 }
+.navbar {
+      margin-bottom: 0;
+      background-color: #4F5D75 !important;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #4F5D75 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
 
-.main {
+  .jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
 
-}
-.nav {
-  height: 50px
-  color: #000000
-}
-footer {
+footer,
+push {
   text-align: center;
-  height: 25px;
-  background-color: #f8f8f8;
-  color: #000000;
+  height: 75px;
+  background-color: #4F5D75;
+  color: #ffffff;
+  padding-top: 10px;
 }
-
 .jumbo-text {
   text-align: center;
   padding-bottom: 10px;
 }
-
-.panel-footer {
+.panel-footer,
+push {
   text-align: center;
+}
+
+.panel-body{
+    font-size: 20px;
+    text-align: center;
+}
+.panel {
+      border: 1px solid #f4511e;
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+
+  .panel-heading{
+    background-color: #4F5D75 !important;
+    color: #FDFDFF !important;
+    text-align: center;
+    font-size: 25px;
+  }
+
+.container-fluid bg-grey{
+  background-color: blue !important;
 }
