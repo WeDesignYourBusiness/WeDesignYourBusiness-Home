@@ -1,17 +1,32 @@
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #f4511e;
+}
+
+h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+.row {
+  text-align: center;
 }
 .navbar {
-      margin-bottom: 0;
-      background-color: #4F5D75 !important;
-      z-index: 9999;
-      border: 0;
+      background-color: #800E13 !important;
       font-size: 12px !important;
       line-height: 1.42857143 !important;
       letter-spacing: 4px;
-      border-radius: 0;
+      border-color: #800E13 !important;
       font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
@@ -27,9 +42,8 @@ body {
   }
 
   .jumbotron {
-      background-color: #f4511e;
-      color: #fff;
-      padding: 100px 25px;
+      background-color: #800E13 !important;
+      color: #ffffff !important;
       font-family: Montserrat, sans-serif;
   }
 
@@ -37,7 +51,7 @@ footer,
 push {
   text-align: center;
   height: 75px;
-  background-color: #4F5D75;
+  background-color: #800E13;
   color: #ffffff;
   padding-top: 10px;
 }
@@ -72,7 +86,7 @@ push {
   }
 
   .panel-heading{
-    background-color: #4F5D75 !important;
+    background-color: #800E13 !important;
     color: #FDFDFF !important;
     text-align: center;
     font-size: 25px;
