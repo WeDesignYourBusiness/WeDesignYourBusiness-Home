@@ -4,14 +4,14 @@ body {
     color: #f4511e;
 }
 
-h2 {
+.about-text {
       font-size: 24px;
       text-transform: uppercase;
       color: #303030;
       font-weight: 600;
       margin-bottom: 30px;
   }
-  h4 {
+  .about {
       font-size: 19px;
       line-height: 1.375em;
       color: #303030;
@@ -22,11 +22,11 @@ h2 {
   text-align: center;
 }
 .navbar {
-      background-color: #800E13 !important;
+      background-color: #345995 !important;
       font-size: 12px !important;
       line-height: 1.42857143 !important;
       letter-spacing: 4px;
-      border-color: #800E13 !important;
+      border-color: #345995 !important;
       font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
@@ -42,16 +42,17 @@ h2 {
   }
 
   .jumbotron {
-      background-color: #800E13 !important;
-      color: #ffffff !important;
+      background-color: #EAC435 !important;
+      color: #000 !important;
       font-family: Montserrat, sans-serif;
+      padding-top: 95px !important;
   }
 
 footer,
 push {
   text-align: center;
   height: 75px;
-  background-color: #800E13;
+  background-color: #345995;
   color: #ffffff;
   padding-top: 10px;
 }
@@ -86,7 +87,7 @@ push {
   }
 
   .panel-heading{
-    background-color: #800E13 !important;
+    background-color: #345995 !important;
     color: #FDFDFF !important;
     text-align: center;
     font-size: 25px;
@@ -94,4 +95,8 @@ push {
 
 .container-fluid bg-grey{
   background-color: blue !important;
+}
+
+.contact-text {
+  font-size: 20px;
 }
