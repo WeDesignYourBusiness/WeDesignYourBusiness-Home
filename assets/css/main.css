@@ -68,15 +68,15 @@ push {
     font-size: 20px;
     text-align: center;
 }
-.panel-body-left{
+/*.panel-body-left{
     font-size: 20px;
     text-align: center;
     margin-bottom: 76px;
-}
-.panel-body-right{
+}*/
+/*.panel-body-right{
     font-size: 20px;
     text-align: center;
-}
+}*/
 .panel {
       border: 1px solid #f4511e;
       border-radius:0 !important;
