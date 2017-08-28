@@ -100,3 +100,9 @@ push {
 .contact-text {
   font-size: 20px;
 }
+
+@media only screen and (max-device-width: 1024px) {
+  .img-responsive {
+    margin: 17%;
+  }
+}
