@@ -8,7 +8,7 @@ body {
     font-size: 20px;
   }
 
-  
+
 .about-text {
       font-size: 24px;
       text-transform: uppercase;
@@ -106,9 +106,20 @@ push {
   font-size: 20px;
 }
 
+.personal-text {
+  padding-bottom: 38px;
+}
+
+.payment {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
 @media only screen and (max-device-width: 1024px) {
   .img-responsive {
     margin: 17%;
   }
-
+  .personal-text {
+    padding-bottom: 10px;
+  }
 }
